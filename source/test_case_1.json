@@ -1,0 +1,81 @@
+[
+    {
+        "area": 1,
+        "camera": "01",
+        "false_positive": false,
+        "id": 1,
+        "label": "Fire/Smoke",
+        "region": "",
+        "start_time": 1688794171000.0,
+        "thumbnail": "",
+        "top_score": "",
+        "zones": []
+    },
+    {
+        "area": 1,
+        "camera": "Camera 4",
+        "false_positive": false,
+        "id": 2,
+        "label": "",
+        "region": "",
+        "start_time": 1688448308000.0,
+        "thumbnail": "",
+        "top_score": "82.93355107307434",
+        "zones": []
+    },
+    {
+        "area": 1,
+        "box": "",
+        "camera": "Camera 4",
+        "false_positive": false,
+        "id": 2,
+        "label": "Loitering",
+        "region": "",
+        "start_time": 1688794171000.0,
+        "thumbnail": "",
+        "top_score": "82.93355107307434",
+        "zones": []
+    },
+        { 
+        "area": 1,
+        "camera": "Camera 4",
+        "end_time": 1685858837000.0,
+        "false_positive": false,
+        "id": 2,
+        "label": "Loitering",
+        "region": "",
+        "start_time": 1688448308000.0,
+        "thumbnail": "",
+        "top_score": "82.93355107307434",
+        "zones": []
+    },
+    { 
+        "area": 1,
+        "box": "",
+        "camera": "Camera 4",
+        "false_positive": false,
+        "has_clip": false,
+        "has_screenshot": false,
+        "id": 2,
+        "label": "Overstay Parking",
+        "region": "",
+        "start_time": 1683266837000.0,
+        "thumbnail": "",
+        "top_score": "82.93355107307434",
+        "zones": []
+    },
+
+    { 
+        "area": 1,
+        "camera": "Camera 4",
+        "false_positive": false,
+        "id": 2,
+        "label": "Fire/Smoke",
+        "region": "",
+        "start_time": 1680674837000.0,
+        "thumbnail": "",
+        "top_score": "82.93355107307434",
+        "zones": []
+    }
+    
+]
