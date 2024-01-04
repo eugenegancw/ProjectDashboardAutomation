@@ -1,4 +1,4 @@
-# ProjectDashboardAutomation
+# Project Dashboard Automation
 Automated dashboard on a web portal integrating real-time data from IoT devices with JavaScript, HTML, and CSS. When the input is a JSON file containing all the relevant details, the script will run the program and output the weekly and monthly reports accordingly.
 
 Note:
