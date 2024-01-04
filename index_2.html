@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        h5{
+            margin: 30px 0px;
+        }
+        .card-header{
+            color: white;
+        }
+        table {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            height: 400px;
+        }
+        thead {
+            padding-right: 13px;
+            flex: 0 0 auto;
+        }
+        tbody {
+            flex: 1 1 auto;
+            display: block;
+            overflow-y: auto;
+        }
+        tr {
+            width: 100%;
+            display: table;
+            table-layout: fixed;
+        }
+
+    </style>
+</head>
+
+<body class=" card-body">
+    <div class="container text-center">
+        <h5 id="weekly_analysis">
+            Current Week Report
+        </h5>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+            </div>
+            <div class="col-5">
+                <div class="card">
+                    <div class="card-header">
+                        Incidents in the past week
+                    </div>
+                    <div class="card-body">
+                        <div id="plot_3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-5">
+                <div class="card">
+                    <div class="card-header">
+                        List of detections this past week
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <thead>
+                                <th scope="col">Label</th>
+                                <th scope="col">Camera</th>
+                                <th scope="col">Time</th>
+                            </thead>
+                            <tbody id="t-body"></tbody>
+                            <!-- <caption>List of detections this past week</caption> -->
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script type="module" src="Code_implementation_v3.js"></script>
+</body>
